@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f6e8; /* Soft pastel yellow background */
+}
+
+.container {
+    text-align: center;
+    background-color: #fff; /* White container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #333; /* Dark gray heading */
+}
+
+.palette {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffb3ba; /* Pastel pink */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff9aa2; /* Darker shade of pink on hover */
+}
